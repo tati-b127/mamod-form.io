@@ -40,11 +40,16 @@ export default {
 .form__select {
   width: 100%;
   padding: 10px;
+  font-size: 14px;
+  background-color: #fff;
   border-radius: 11px;
+  color: #000;
   border: 1px solid #e6e6eb;
 }
 .form__option {
+  font-size: 14px;
   padding: 10px;
+  background-color: #fff;
 }
 option:first-child {
   color: #929292;

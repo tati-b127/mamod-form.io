@@ -278,4 +278,38 @@ export default defineComponent({
   font-size: 10px;
   color: #f6383e;
 }
+@media (max-width: 768px) {
+  .block__descr {
+    padding-left: 10px;
+  }
+  .form__block-agree {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .label-check {
+    margin-bottom: 40px;
+  }
+  .descr-agree {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .descr {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .des {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .form__btn {
+    min-width: 100%;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  #app {
+    padding: 40px 20px;
+  }
+}
 </style>
