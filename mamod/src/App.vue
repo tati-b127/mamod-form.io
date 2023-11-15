@@ -21,4 +21,12 @@ export default {
   padding: 150px 0;
   background-color: #f1f5fe;
 }
+@media (max-width: 768px) {
+  #app {
+    padding: 40px 20px;
+  }
+  .form__select {
+    height: 40px;
+  }
+}
 </style>
